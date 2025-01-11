@@ -2,7 +2,7 @@
 Scanny is an asynchronous port scanner. All you need to do is specify an ip and it will return a list of all available ports. 
 
 ## Example Usage 
-```
+```rust
 use scanny::Scanner;
 #[tokio::main]
 async fn main() {
